@@ -1,0 +1,159 @@
+<html>
+
+<head>
+	<title>Practica 1-Sint</title>
+	<link rel="stylesheet" href="p1.css">
+	<meta charset="utf-8">
+</head>
+<script type="text/javascript"> src="p3.js" </script>
+<body>
+	<form action="p1.php" name="formulario" method="POST" enctype="">
+	
+
+		<fieldset class="seccion1">
+			<legend class="enunciado1">
+				<b>Datos de registro</b>
+			</legend>
+			Usuario:
+			<input type="text" name="usuario" [value="usuario" ]>
+			<L1>Contraseña:
+				<input type="password" name="contrasena" [value="valor" ]>
+			</L1>
+			<br></br>Introduce de nuevo la contraseña:
+			<input type="password" name="contrasena2" [value="valor" ]>
+			<br></br>Tipo de codificacion:
+			<select name="codificacion" maxlength="15">
+				<option value="application/x-www-form-urlencoded">application/x-www-form-urlencoded
+					<option value="multipart/form-data">multipart/form-data
+			</select>
+			<L1>Método de envio:
+				<input type="radio" name="metodo" value="POST" checked>POST</L1>
+			<input type="radio" name="metodo" value="GET">GET
+			<br></br>Modo de envio
+			<input type="radio" name="modoenvio" value="p1.php" checked>fichero PHP
+			<br></br>
+			<L2>
+				<input type="radio" name="modoenvio" value="url /~sintprof/p1.php">URL "/~sintprof/p1.php"</L2>
+		</fieldset>
+
+		<br></br>
+		<fieldset class="seccion2">
+			<legend class="enunciado2">
+				<b>Información Personal</b>
+			</legend>
+			Nombre:
+			<input type="text" placeholder="Juan... " size="15" name="nombre"></input>
+			<L1>Apellidos:
+				<input type="text" size="14" name="apellidos"></input>
+			</L1>
+			<L1>Sexo:
+				<input type="radio" name="sex" value="hombre" checked>Hombre
+				<input type="radio" name="sex" value="mujer">Mujer</L1>
+			<br></br>Fecha de nacimiento:
+			<input type="día" name="dia" class="fecha" type="text" placeholder="Día" size="1"></input>
+			<select name="mes" maxlength="15">
+				<option value="------">-------
+					<option value="Enero">Enero
+						<option value="Febrero">Febrero
+							<option value="Marzo">Marzo
+								<option value="Abril">Abril
+									<option value="Mayo">Mayo
+										<option value="Junio">Junio
+											<option value="Julio">Julio
+												<option value="Agosto">Agosto
+													<option value="Septiembre">Septiembre
+														<option value="Octubre">Octubre
+															<option value="Noviembre">Noviembre
+																<option value="Diciembre">Diciembre
+			</select>
+			<input name="ano" type="text" class="fecha" placeholder="Año" maxlength="4" size="2"></input>
+
+			<L1>DNI:</L1>
+			<input type="text" name="dni" placeholder="44444444M" maxlength="9" size="10">
+			<br></br>Dirección:
+			<input type="text" placeholder="calle/camino..." name="direccion" [value="valor" ]>
+			<L1>Código Postal:
+				<input type="text" placeholder="25636 " name="codpostal">
+			</L1>
+			<br></br>Localidad:
+			<input type="text" placeholder="Vigo/Madrid..." name="localidad">
+			<L1>Provincia:
+				<input type="text" placeholder="Ourense/Lugo... " name="provincia">
+			</L1>
+		</fieldset>
+		<br></br>
+
+		<fieldset class="seccion3">
+			<legend class="enunciado1">
+				<b>Gustos Musicales</b>
+			</legend>
+			¿Qué tipo de musica te gusta escuchar?
+			<br></br>
+			<input type="checkbox" name="pop" value="Pop">Pop
+			<input type="checkbox" name="clasica" value="Clásica">Clásica
+			<input type="checkbox" name="hiphop" value="Hip Hop">Hip Hop
+			<br></br>
+			<input type="checkbox" name="rock" value="Rock">Rock
+			<input type="checkbox" name="disco" value="Disco">Disco
+			<input type="checkbox" name="funk" value="Funk">Funk
+			<br></br>
+			<input type="checkbox" name="jazz" value="Jazz">Jazz
+			<input type="checkbox" name="regueton" value="Regueton">Reguetón
+			<input type="checkbox" name="musicatradicional" value="Música tradicional">Música tradicional
+
+
+			<br></br>¿En qué momento del día sueles escuchar música?
+			<select name="momentodia" maxlength="15">
+				<option value="-------">---------
+					<option value="Por la mañana">Por la mañana
+						<option value="Por la tarde">Por la tarde
+							<option value="Por la noche">Por la noche
+			</select>
+			<br></br>¿Has estudiado algo de música?
+			<input type="radio" name="estudiar" value="Si">Sí
+			<input type="radio" name="estudiar" value="No" checked>No
+			<L1>¿Dónde has aprendido más? </L1>
+			<select name="lugar" maxlength="15">
+				<option value="-------">---------
+					<option value="Colegio">Colegio
+						<option value="Conservatorio">Conservatorio
+							<option value="Cuenta propia">Cuenta propia
+								<option value="No sé nada de música">No sé nada de música
+			</select>
+			<br></br>Sabes tocar algún instrumento
+			<input type="radio" name="decision" value="No" checked>No
+			<input type="radio" name="decision" value="Si">Sí
+			<br></br>Indica qué instrumento has tocado:
+			<br></br>
+			<textarea name="texto" rows="5" cols="50"></textarea>
+		</fieldset>
+		<br></br>
+
+		<fieldset class="seccion2">
+			<legend class="enunciado2">
+				<b>Información de contacto</b>
+			</legend>
+			Teléfono:
+			<input type="telefono" placeholder="658965896" name="telefono" type="text" size="8"></input>
+			<L1>Correo electrónico:
+				<input type="text" name="email" placeholder="...@...." type="text"></input>
+			</L1>
+			<br></br>¿Desearías recibir avisos cuando haya alguna novedad?
+			<input type="radio" name="aviso" value="Si" checked>Sí
+			<input type="radio" name="aviso" value="No">No
+			<br></br>
+			<input type="checkbox" name="acepto" value="Si" checked> Deseo suscribirme al boletín semanal
+			<p></p>
+			<input type="checkbox" name="noacepto" value="No"> No deseo suscribirme al boletín semanal
+		</fieldset>
+
+		<input type="hidden" name="navegador" />
+		<input type="hidden" name="hora" />
+		<br>
+		<input type="submit" class="enviar" value="enviar"></input>
+		<input type="reset" class="reset" value="Borrar" onclick="alert('Formulario borrado')"></input>
+	</Form>
+	<address class="Muralla">IES Muralla Romana</address>
+</body>
+
+</html>

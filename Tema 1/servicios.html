@@ -1,0 +1,38 @@
+<h1>Formulario</h1>
+<p>Contratación de servicios</p>
+
+<form method="get" action="http://servidor.php">
+    
+    <hr> 
+    <label for="Nombre">Nombre completo:</label>
+    <input name="Nombre" type="text" placeholder="Nombre" required>
+    <br></br>
+    
+    <label for="Direccion">Dirección:</label>
+    <input name="Direccion" type="text" placeholder="Dirección" required>
+    <br></br>
+
+    <label for="Numero">Número de cuenta:</label>
+    <input name="Numero" type="password" placeholder="Número de cuenta" required>
+    <br></br>
+
+    <label for="Tipo de tarifa">Tipo de tarifa:</label>
+    <select name="Tarifa" id="Tipo de tarifa" size="3" required>
+        <option value="Tarifa Joven">Tarifa Joven</option>
+        <option value="Tarifa Sénior">Tarifa Sénior</option>
+        <option value="Tarifa Plana Superior">Tarifa Plana Superior</option>
+    </select>
+    <br></br>
+
+    <label for="Fecha">Fecha de contratación:</label>
+    <input type="date" name="Fecha" required>
+    <br></br>
+
+    <label for="Notificaciones">Desea recibir notificaciones?</label>
+    <input type="radio" name="Notificaciones" value="Si">Sí
+    <input type="radio" name="Notificaciones" value="No">No
+
+    <hr>
+    <input type="reset" value="Resetear">
+    <input type="submit" value="Enviar">
+</form>
