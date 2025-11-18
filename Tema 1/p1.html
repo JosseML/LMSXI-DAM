@@ -1,13 +1,14 @@
-<html>
+﻿<html>
 
 <head>
 	<title>Practica 1-Sint</title>
 	<link rel="stylesheet" href="p1.css">
 	<meta charset="utf-8">
+	<script type="text/javaScript" language="javaScript" src="validacion.js"> </script>
 </head>
-<script type="text/javascript"> src="p3.js" </script>
+
 <body>
-	<form action="p1.php" name="formulario" method="POST" enctype="">
+	<form action="p1.php" name="formulario" method="POST" enctype="" onsubmit="return validarFormulario(this);"  >
 	
 
 		<fieldset class="seccion1">
@@ -134,7 +135,7 @@
 				<b>Información de contacto</b>
 			</legend>
 			Teléfono:
-			<input type="telefono" placeholder="658965896" name="telefono" type="text" size="8"></input>
+			<input type="telefono" placeholder="658965896" name="telefono" type="text"></input>
 			<L1>Correo electrónico:
 				<input type="text" name="email" placeholder="...@...." type="text"></input>
 			</L1>
