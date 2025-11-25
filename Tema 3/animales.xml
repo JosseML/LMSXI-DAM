@@ -1,0 +1,20 @@
+<animales>
+    <animal>
+        <nombre>León</nombre>
+        <nombreCientifico>Panthera leo</nombreCientifico>
+        <familia>Carnívoro</familia>
+        <estadoDeConservacion>Vulnerable</estadoDeConservacion>
+    </animal>
+    <animal>
+        <nombre>Elefante</nombre>
+        <nombreCientifico>Loxodonta africana</nombreCientifico>
+        <familia>Herbívoro</familia>
+        <estadoDeConservacion>En peligro</estadoDeConservacion>
+    </animal>
+    <animal>
+        <nombre>Tigre</nombre>
+        <nombreCientifico>Panthera tigris</nombreCientifico>
+        <familia>Carnívoro</familia>
+        <estadoDeConservacion>En peligro</estadoDeConservacion>
+    </animal>
+</animales>
