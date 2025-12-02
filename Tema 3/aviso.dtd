@@ -1,0 +1,4 @@
+<!ELEMENT aviso (de,para,mensaje)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE aviso SYSTEM "aviso.dtd">
+
+<aviso>
+    <de>Pepe</de>
+    <para>María</para>
+    <mensaje>Hola mundo!</mensaje>
+</aviso>
