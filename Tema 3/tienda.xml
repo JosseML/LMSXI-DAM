@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ventas xmlns="http://venta/tienda"
+        xmlns:cl="http://venta/tienda/cliente"
+        xmlns:pr="http://venta/tienda/productos">
+
+    <cl:cliente>
+        <cl:cod>CL09384</cl:cod>
+        <cl:nombre>Uxío Fuentes Neira</cl:nombre>
+        <cl:direccion>Rúa Europa 24, 3ºA</cl:direccion>
+        <cl:telefono>555098433</cl:telefono>
+    </cl:cliente>
+
+    <pr:productos>
+        <pr:producto>
+            <pr:cod>LACT02330993</pr:cod>
+            <pr:descripcion>Leite enteira envase 1L</pr:descripcion>
+        </pr:producto>
+        <pr:producto>
+            <pr:cod>LACT00493112</pr:cod>
+            <pr:descripcion>Margarina vexetal tarrina 250g</pr:descripcion>
+        </pr:producto>
+    </pr:productos>
+
+</ventas>

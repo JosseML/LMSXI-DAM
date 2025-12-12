@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro>
+        <isb>48927498327</isb>
+        <titulo>El mago de oz</titulo>
+        <año>1999</año>
+        <editorial>Salamandra</editorial>
+        <autor>Pablo Vazquez</autor>
+        <descripcion>Es una historia sobre...</descripcion>
+    </libro>
+    <libro>
+        <isb>1432568323</isb>
+        <titulo>El laberinto del fauno</titulo>
+        <año>1987</año>
+        <editorial>Manantia</editorial>
+        <autor>Manuel Lopez</autor>
+        <autor>Pablo Pascal</autor>
+        <descripcion>Es una historia sobre un...</descripcion>
+    </libro>
+</biblioteca>

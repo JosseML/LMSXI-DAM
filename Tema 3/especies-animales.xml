@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE especie [
-    <!ELEMENT especie (nombre, familia,distribucion)>
+    <!ELEMENT especie (nombre,familia,distribucion)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT familia (#PCDATA)>
     <!ELEMENT distribucion (zona+)>
@@ -16,7 +16,7 @@
     <nombre nombre-cientifico="Monanchus Monanchus">Foca monje</nombre>
     <familia>Phocidae</familia>
     <distribucion>
-        <zona>Costa Atrlántica</zona>
+        <zona>Costa Atlántica</zona>
         <zona>Costa Mediterranea</zona>
     </distribucion>
 
