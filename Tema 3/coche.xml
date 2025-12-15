@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<coches>
+
+    <coche>
+        <nombrePropietario>Manuel</nombrePropietario>
+        <apellidosPropietario>Lopes Ozor</apellidosPropietario>
+        <matricula>6798-XFC</matricula>
+        <kilometrosRecorridos>123km</kilometrosRecorridos>
+        <FechaCompra>12/03/2005</FechaCompra>
+        <FechaMatriculacion>11/04/2005</FechaMatriculacion>
+        <ProvinciaMatriculacion>Alicante</ProvinciaMatriculacion>
+        <Estado>Nuevo</Estado>
+    </coche>
+    
+</coches>

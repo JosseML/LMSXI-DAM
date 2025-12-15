@@ -2,40 +2,40 @@
 
 <viaje_turistico fecha_inicio="20-01-2026" fecha_fin="05-02-2026">
 
-<clientes>
-    <cliente>
-        <nombre>Juan</nombre>
-        <apellidos>Pérez Pozas</apellidos>
-        <origen>Madrid</origen>
-        <destino>
-            <ciudad>Lisboa</ciudad>
-            <hotel>Hotel Lisboa Central</hotel>
-            <noches>15</noches>
-        </destino>
-        <precio>1000€</precio>
-    </cliente>
-    <cliente>
-        <nombre>María</nombre>
-        <apellidos>López Rodríguez</apellidos>
-        <origen>Barcelona</origen>
-        <destino>
-            <ciudad>París</ciudad>
-            <hotel>Hotel París Centro</hotel>
-            <noches>12</noches>
-        </destino>
-        <precio>2000€</precio>
-    </cliente>
-    <cliente>
-        <nombre>Carlos</nombre>
-        <apellidos>García López</apellidos>
-        <origen>Valencia</origen>
-        <destino>
-            <ciudad>Roma</ciudad>
-            <hotel>Hotel Roma Plaza</hotel>
-            <noches>10</noches>
-        </destino>
-        <precio>1500€</precio>
-    </cliente>
-</clientes>
+    <clientes>
+        <cliente>
+            <nombre>Juan</nombre>
+            <apellidos>Pérez Pozas</apellidos>
+            <origen>Madrid</origen>
+            <destino>
+                <ciudad>Lisboa</ciudad>
+                <hotel>Hotel Lisboa Central</hotel>
+                <noches>15</noches>
+            </destino>
+            <precio>1000€</precio>
+        </cliente>
+        <cliente>
+            <nombre>María</nombre>
+            <apellidos>López Rodríguez</apellidos>
+            <origen>Barcelona</origen>
+            <destino>
+                <ciudad>París</ciudad>
+                <hotel>Hotel París Centro</hotel>
+                <noches>12</noches>
+            </destino>
+            <precio>2000€</precio>
+        </cliente>
+        <cliente>
+            <nombre>Carlos</nombre>
+            <apellidos>García López</apellidos>
+            <origen>Valencia</origen>
+            <destino>
+                <ciudad>Roma</ciudad>
+                <hotel>Hotel Roma Plaza</hotel>
+                <noches>10</noches>
+            </destino>
+            <precio>1500€</precio>
+        </cliente>
+    </clientes>
 
 </viaje_turistico>

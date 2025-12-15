@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <animales>
+
     <animal>
         <nombre>León</nombre>
         <nombreCientifico>Panthera leo</nombreCientifico>
@@ -19,4 +20,5 @@
         <familia>Carnívoro</familia>
         <estadoDeConservacion>En peligro</estadoDeConservacion>
     </animal>
+    
 </animales>

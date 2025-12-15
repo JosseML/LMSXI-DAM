@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <biblioteca>
+    
     <libro>
         <isb>48927498327</isb>
         <titulo>El mago de oz</titulo>
@@ -18,4 +19,5 @@
         <autor>Pablo Pascal</autor>
         <descripcion>Es una historia sobre un...</descripcion>
     </libro>
+
 </biblioteca>
