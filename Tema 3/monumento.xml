@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monumentos>
+
+    <monumento>
+        <código>34534t34</código>
+        <nombre>Iglesia</nombre>
+        <direccion>Pamplona San Vasily</direccion>
+        <pagoEntrada>275$</pagoEntrada>
+        <pagina-web>sanvasily.com</pagina-web>
+        <horaApertura>12:34</horaApertura>
+        <horaCierre>22:13</horaCierre>
+        <mesApertura>10</mesApertura>
+        <mesCierre>12</mesCierre>
+        <añoConstruccion>2001</añoConstruccion>
+        <descripcion>Es..</descripcion>
+    </monumento>
+    
+</monumentos>

@@ -7,10 +7,10 @@
         <apellidosPropietario>Lopes Ozor</apellidosPropietario>
         <matricula>6798-XFC</matricula>
         <kilometrosRecorridos>123km</kilometrosRecorridos>
-        <FechaCompra>12/03/2005</FechaCompra>
-        <FechaMatriculacion>11/04/2005</FechaMatriculacion>
-        <ProvinciaMatriculacion>Alicante</ProvinciaMatriculacion>
-        <Estado>Nuevo</Estado>
+        <fechaCompra>12/03/2005</fechaCompra>
+        <fechaMatriculacion>11/04/2005</fechaMatriculacion>
+        <provinciaMatriculacion>Alicante</provinciaMatriculacion>
+        <estado>Nuevo</estado>
     </coche>
     
 </coches>
