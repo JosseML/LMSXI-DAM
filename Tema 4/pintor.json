@@ -1,0 +1,13 @@
+{
+    "nombre": "Ferran Torre",
+    "nacimiento": 1987,
+    "lugar-nacimineto": "Pamplona",
+    "lugar-fallecimiento": "San Basilio",
+    "Obras": [
+        {
+            "nombre": "La Cabra",
+            "anyo": 2012,
+            "url": "https://wikipedia.es/media/pictures/la-cabra"
+        }
+    ]
+}
