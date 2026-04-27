@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <xsl:template match="/">
+        <html>
+            <body>
+                <h1>Ingredientes</h1>
+                <ul>
+                    <xsl:apply-templates select="//ingrediente"/>
+                </ul>
+            </body>
+        </html>
+    </xsl:template>
+
+    <xsl:template match="ingrediente">
+        <li><xsl:value-of select="."/></li>
+    </xsl:template>
+
+</xsl:stylesheet>
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet version="1.0"
@@ -8,3 +29,4 @@
 
 
     </html>
+>>>>>>> 8e8c6d8afbc3713b9a53829a045b01e959eba478
